@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="assests/images/book-2-cover.svg" alt="The Applied AI Engineer — Hybrid Search, BM25 Reranking, and Production RAG with Qdrant and RAGAS (Book 2 cover)" width="260"/>
+<img src="assests/images/book-2-cover.svg" alt="RAG In Practice — Real Systems, Real Failures, Real Fixes (Book 2 cover)" width="260"/>
 
-# The Applied AI Engineer — Hybrid Search & Production RAG in Python (Qdrant + BM25 + Cross-Encoder Reranking)
+# RAG In Practice — Real Systems, Real Failures, Real Fixes
 
-**ShopBot v2**: the production upgrade of an open-source Retrieval-Augmented Generation (RAG) chatbot — the complete companion codebase for *The Applied AI Engineer*, Book 2 of the [Zudyog RAG Mastery Series](https://www.zudyog.com/).
+**ShopBot v2**: the production upgrade of an open-source Retrieval-Augmented Generation (RAG) chatbot — the complete companion codebase for *RAG In Practice*, Book 2 of the RAG Mastery Series.
 
 ### 📖 Every line of this code is explained, chapter by chapter, in the book.
 
-[![Read The Applied AI Engineer](https://img.shields.io/badge/Read_%22The_Applied_AI_Engineer%22-→-0A9396?style=for-the-badge&logoColor=white)](https://www.zudyog.com/books/the-applied-ai-engineer)
+[![Get RAG In Practice on Amazon](https://img.shields.io/badge/Get_%22RAG_In_Practice%22-on_Amazon_→-0A9396?style=for-the-badge&logoColor=white)](https://www.amazon.com/dp/B0H39263QN)
 
 This repo shows you *what* was built. The book shows you *why* — every design decision, every dead end, every real evaluation score, written as the chapters that produced this exact code.
 
@@ -21,7 +21,7 @@ This repo shows you *what* was built. The book shows you *why* — every design 
 [![Docker](https://img.shields.io/badge/Docker-Rerank%20Microservice-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 [![Next.js](https://img.shields.io/badge/Next.js-Storefront-000000?logo=next.js&logoColor=white)](https://nextjs.org/)
 
-📖 [Read the book](https://www.zudyog.com/books/the-applied-ai-engineer) · 🌐 [zudyog.com](https://www.zudyog.com/) · 🐛 [Report an issue](https://github.com/zudyog/the-applied-ai-engineer/issues) · ⭐ Star this repo if it helped you
+📖 [Get the book on Amazon](https://www.amazon.com/dp/B0H39263QN) · ⭐ Star this repo if it helped you
 
 </div>
 
@@ -157,7 +157,7 @@ Each project's `.env.example` documents the environment variables it needs; the 
 ## Repository structure
 
 ```
-the-applied-ai-engineer/
+rag-in-practice/
 └── shopbot/
     ├── shopbot-ingest/     # Build-time: chunker, embedder, Qdrant + BM25 writer
     ├── shopbot-agent/       # FastAPI backend: retrieval, memory, cache, evaluation, /ask
@@ -172,19 +172,19 @@ Developers and ML engineers who've already got a RAG pipeline working and are hi
 
 ## Related
 
-This is Book 2 of the RAG Mastery series, continuing the exact ShopBot codebase from **Book 1, [*The AI Engineer*](https://www.zudyog.com/books/the-ai-engineer)** — free to read, and the place to start if you haven't built the Grounding Layer this book upgrades.
+This is Book 2 of the RAG Mastery series, continuing the exact ShopBot codebase from **Book 1, [*RAG Essentials*](https://www.amazon.com/RAG-Essentials-Systems-Grounded-Framework-ebook/dp/B0GYG7137Y)** — the place to start if you haven't built the Grounding Layer this book upgrades.
 
 ## Where the story goes next
 
 <table>
 <tr>
 <td width="140" valign="top">
-<img src="assests/images/book-3-cover.svg" alt="The Senior AI Engineer — LangGraph, HyDE, CRAG, and Fine-Tuned Embeddings for Advanced RAG (Book 3 cover)" width="120"/>
+<img src="assests/images/book-3-cover.svg" alt="Advanced RAG — Architectures, Optimization, and Retrieval Intelligence (Book 3 cover)" width="120"/>
 </td>
 <td valign="top">
 
-### Book 3 — [The Senior AI Engineer](https://www.zudyog.com/books/the-senior-ai-engineer)
-**LangGraph, HyDE, CRAG, and Fine-Tuned Embeddings for Advanced RAG**
+### Book 3 — Advanced RAG
+**Architectures, Optimization, and Retrieval Intelligence**
 
 Every RAG system eventually meets its hard 9% — the ambiguous question, the query that needs two hops of reasoning, the retrieval that looked fine and was quietly wrong. That's the gap between a system you demo and a system you'd stake your name on. Book 3 is nine chapters on closing it: adaptive routing with LangGraph, HyDE for queries that don't match the vocabulary of your documents, Corrective RAG for catching retrieval failures before they become answers, and embedding models fine-tuned on your own domain instead of borrowed from someone else's.
 
@@ -192,12 +192,12 @@ Every RAG system eventually meets its hard 9% — the ambiguous question, the qu
 </tr>
 <tr>
 <td width="140" valign="top">
-<img src="assests/images/book-4-cover.svg" alt="The AI Solutions Architect — Multi-Tenant RAG on AWS Bedrock with GDPR Compliance and Audit Trails (Book 4 cover)" width="120"/>
+<img src="assests/images/book-4-cover.svg" alt="RAG at Scale — Enterprise Architectures for Reliable AI Systems (Book 4 cover)" width="120"/>
 </td>
 <td valign="top">
 
-### Book 4 — [The AI Solutions Architect](https://www.zudyog.com/books/the-ai-solutions-architect)
-**Multi-Tenant RAG on AWS Bedrock with GDPR Compliance and Audit Trails**
+### Book 4 — RAG at Scale
+**Enterprise Architectures for Reliable AI Systems**
 
 There's a specific moment every founder building this hits: the first enterprise customer asks "can you guarantee my data never touches another tenant's index, and can you prove it in an audit?" Book 4 builds the Pramana Framework for every tenant you'll ever sign — per-tenant Qdrant collections, AWS Bedrock at scale, and GDPR-compliant deletion pipelines that hold up when someone actually asks you to produce the receipt.
 
@@ -205,13 +205,13 @@ There's a specific moment every founder building this hits: the first enterprise
 </tr>
 </table>
 
-**[Book 1 is free.](https://www.zudyog.com/books/the-ai-engineer)** A subscription unlocks the full series, including this book. [See the full series →](https://www.zudyog.com/)
+**[Get RAG Essentials on Amazon.](https://www.amazon.com/RAG-Essentials-Systems-Grounded-Framework-ebook/dp/B0GYG7137Y)** Book 2 continues that exact codebase — hybrid retrieval, reranking, memory, and cache, closing the gaps Book 1's own evaluation surfaced.
 
-## About Zudyog
+## About the book
 
-[**Zudyog**](https://www.zudyog.com/) publishes the **RAG Mastery Series** — 11 books on building production Retrieval-Augmented Generation systems, from first embeddings to cloud-native, multi-tenant agentic architectures. Four core books are available now (this one included); seven companion books release quarterly starting November 2026.
+**RAG In Practice** is Book 2 of the **RAG Mastery Series** — 11 books on building production Retrieval-Augmented Generation systems, from first embeddings to cloud-native, multi-tenant agentic architectures. Four core books are available now (this one included); seven companion books release quarterly starting November 2026.
 
-**Book 1 — *The AI Engineer* — is completely free to read** at [zudyog.com/books/the-ai-engineer](https://www.zudyog.com/books/the-ai-engineer). A subscription unlocks the full series, including this book's hybrid search, reranking, and production upgrade to that same codebase.
+**Book 1 — *RAG Essentials*** is available at **[Amazon](https://www.amazon.com/RAG-Essentials-Systems-Grounded-Framework-ebook/dp/B0GYG7137Y)**. **Book 2 — *RAG In Practice* — the book behind this repository** is available at **[Amazon](https://www.amazon.com/dp/B0H39263QN)** — hybrid search, reranking, and production upgrade to that same codebase.
 
 Every book in the series follows the same principle this repository demonstrates: real, runnable code and measured evaluation scores, not diagrams of an architecture that was never actually built.
 
